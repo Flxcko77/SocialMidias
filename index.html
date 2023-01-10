@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Social Midias</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="toggle">
+            <ion-icon name="share-social"></ion-icon>
+        </div>
+        <li style="--i:0;--clr:#1877F2;">
+            <a href="https://www.facebook.com/profile.php?id=100016791619465" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+        </li>
+        <li style="--i:1;--clr:#25D366;">
+            <a href="https://contate.me/eumermo123" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+        </li>
+        <li style="--i:2;--clr:#1DA1F2;">
+            <a href="https://twitter.com/CoeGl7"><ion-icon name="logo-twitter" target="_blank"></ion-icon></a>
+        </li>
+        <li style="--i:3;--clr:#EA4C89;">
+            <a href="#"><ion-icon name="logo-dribbble" target="_blank"></ion-icon></a>
+        </li>
+        <li style="--i:4;--clr:#0A66C2;">
+            <a href="https://www.linkedin.com/in/guilherme-vieira-a7357420a/"><ion-icon name="logo-linkedin" target="_blank"></ion-icon></a>
+        </li>
+        <li style="--i:5;--clr:#C32AA3;">
+            <a href="https://www.instagram.com/flxcko7/"><ion-icon name="logo-instagram" target="_blank"></ion-icon></a>
+        </li>
+        <li style="--i:6;--clr:#BD081C;">
+            <a href="https://br.pinterest.com"><ion-icon name="logo-pinterest" target="_blank"></ion-icon></a>
+        </li>
+        <li style="--i:7;--clr:#ff0000;">
+            <a href="https://www.youtube.com/watch?v=CjiP_Aqknos"><ion-icon name="logo-youtube" target="_blank"></ion-icon></a>
+        </li>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        let toggle = window.document.querySelector('.toggle');
+        let menu = window.document.querySelector('.menu');
+        toggle.onclick = function(){
+            menu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
